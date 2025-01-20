@@ -1,30 +1,17 @@
-import { useState, useEffect } from 'react'
+import React from 'react'
 
-const ThemeSwitcher = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
+import { useTheme } from '@/context/ThemeContext'
 
-  const toggleDarkMode = () => {
-    setIsDarkMode((prev) => !prev)
-  }
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.body.classList.add('dark')
-    } else {
-      document.body.classList.remove('dark')
-    }
-  }, [isDarkMode])
+const ThemeSwitcher: React.FC = () => {
+  const { isDarkMode, toggleTheme } = useTheme()
 
   return (
-    <div>
-      <button 
-        onClick={toggleDarkMode} 
-        className='px-4 py-2 bg-gray-800 text-white rounded'
-      >
-        {isDarkMode ? 'Modo Claro' : 'Modo Oscuro'}
-      </button>
-    </div>
-  )
-}
+    <button
+      onClick={toggleTheme}
+    >
+      {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+    </button>
+  );
+};
 
-export { ThemeSwitcher }
+export { ThemeSwitcher };
