@@ -1,4 +1,10 @@
 {
   "welcome": "¡Bienvenido a la aplicación!",
-  "description": "Esta es una aplicación multilingüe."
+  "description": "Hola, soy Erick, un apasionado de la programación web de 21 años. Actualmente, estoy estudiando una Ingeniería en Desarrollo y Gestión de Software. Programar se ha convertido en un hábito diario debido a mi entusiasmo por la tecnología. Me estoy especializando en el area de fronend. Me encanta aprender nuevas tecnologías y mantenerme actualizado con las últimas tendencias en el desarrollo web. En mi tiempo libre, disfruto jugando videojuegos y practicando baloncesto.",
+  "about": "Sobre mí",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+  "skills": "Habilidades",
+  "portfolio": "Portafolio"
+  
 }
