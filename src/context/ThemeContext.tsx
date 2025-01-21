@@ -1,53 +1,55 @@
-import React, { createContext, useContext, useState, useEffect } from 'react'
+import React, { createContext, useState, useEffect, useContext } from 'react';
 
-// Definir el contexto del tema
 type ThemeContextType = {
-  isDarkMode: boolean
-  toggleTheme: () => void
-}
+  isDarkMode: boolean;
+  toggleTheme: () => void;
+};
 
-const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 type ThemeProviderProps = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
-  // Obtener el tema desde localStorage al cargar la página
+  // Efecto para aplicar el tema y guardar la preferencia en localStorage
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme')
+    const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
-      setIsDarkMode(savedTheme === 'dark')
+      setIsDarkMode(savedTheme === 'dark');
     } else {
-      // Si no existe, establecer el tema predeterminado
-      setIsDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches)
+      setIsDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
     }
-  }, [])
+  }, []);
 
-  // Cambiar el tema
+  useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+  }, [isDarkMode]); 
   const toggleTheme = () => {
     setIsDarkMode((prevMode) => {
-      const newMode = !prevMode
-      // Guardar el tema en localStorage
-      localStorage.setItem('theme', newMode ? 'dark' : 'light')
-      return newMode
-    })
-  }
+      const newMode = !prevMode;
+      localStorage.setItem('theme', newMode ? 'dark' : 'light');
+      return newMode;
+    });
+  };
 
   return (
     <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
-  )
-}
+  );
+};
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const useTheme = (): ThemeContextType => {
-  const context = useContext(ThemeContext)
+  const context = useContext(ThemeContext);
   if (!context) {
-    throw new Error('useTheme must be used within a ThemeProvider')
+    throw new Error('useTheme must be used within a ThemeProvider');
   }
-  return context
-}
+  return context;
+};

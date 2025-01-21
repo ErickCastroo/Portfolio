@@ -8,6 +8,7 @@ const ThemeSwitcher: React.FC = () => {
   return (
     <button
       onClick={toggleTheme}
+      className='absolute right-5 top-5'
     >
       {isDarkMode ? 'Light Mode' : 'Dark Mode'}
     </button>
