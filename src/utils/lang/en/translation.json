@@ -1,4 +1,10 @@
 {
   "welcome": "Welcome to the app!",
-  "description": "This is a multilingual app."
+  "description": "Hello, I'm Erick, a 21-year-old web programming enthusiast. Currently, I'm studying a Software Development and Management Engineering. Programming has become a daily habit due to my enthusiasm for technology. I'm specializing in the frontend area. I love learning new technologies and staying up to date with the latest trends in web development. In my free time, I enjoy playing video games and practicing basketball.",
+  "about": "About me",
+  "projects": "Projects",
+  "contact": "Contact",
+  "skills": "Skills",
+  "portfolio": "Portfolio",
+  "experince": "Experience"
 }
