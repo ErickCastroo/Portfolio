@@ -26,7 +26,7 @@ const App: React.FC = () => {
           <div className='flex justify-start items-center mx-10 w-full md:w-3/5 p-4'>
             <Header />
           </div>
-          <div className='flex justify-center   w-full md:w-2/5'>
+          <div className='flex justify-center w-full md:w-2/5'>
             <img
               src='/images/erick-castro.jpg'
               alt='Erick Castro'
@@ -34,11 +34,9 @@ const App: React.FC = () => {
             />
           </div>
         </div>
-
         <div className='flex justify-start items-center mx-10 mb-5'>
           <h1 className='text-4xl dark:text-slate-300 text-orange-300'>{t('projects')}</h1>
         </div>
-
         <ThemeSwitcher />
       </GradientFollowMouse>
     </ThemeProvider>
