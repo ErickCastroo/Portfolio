@@ -15,6 +15,11 @@ declare module 'i18next' {
         experience: string;
         ViewonGitHub: string;
         DesProject: string;
+        titleexp1: string;
+        fechaexp1: string;
+        puntoexp1: string;
+        titleexp2: string;
+        fechaexp2: string;
       };
     };
   }
