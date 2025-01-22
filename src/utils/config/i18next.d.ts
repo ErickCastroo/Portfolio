@@ -5,13 +5,16 @@ declare module 'i18next' {
     defaultNS: 'translation'
     resources: {
       translation: {
-        welcome: string;
         description: string;
         about: string;
         courses: string;
         certifications: string;
         skills: string;
         contact: string;
+        projects: string;
+        experience: string;
+        ViewonGitHub: string;
+        DesProject: string;
       };
     };
   }
