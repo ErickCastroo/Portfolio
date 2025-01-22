@@ -5,6 +5,7 @@ import i18n from '@/utils/config/I18n'
 import { ThemeProvider } from '@/context/ThemeContext'
 
 import { Header } from '@/components/Header'
+import { Educacion } from './components/Educacion'
 import { Experiencia } from '@/components/Experiencia'
 import { GitHubRepos } from '@/components/GithubSeccion'
 import { ThemeSwitcher } from '@/components/CambiadordeTema'
@@ -53,6 +54,13 @@ const App: React.FC = () => {
             <h1 className='text-4xl dark:text-slate-300 text-orange-300 mb-5' id='experiencia'>{t('experince')}</h1>
             <p className='dark:text-slate-200'>
               <Experiencia />  
+            </p>
+          </div>
+
+          <div className='sm:mx-8 lg:mx-32 mt-20'>
+            <h1 className='text-4xl dark:text-slate-300 text-orange-300 mb-5' id='experiencia'>{t('education')}</h1>
+            <p className='dark:text-slate-200'>
+              <Educacion />
             </p>
           </div>
 
