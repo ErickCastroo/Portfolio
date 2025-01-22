@@ -13,8 +13,14 @@ const repos: Repo[] = [
     "url": "https://github.com/ErickCastroo/Gastitos"
   },
   {
+    "name": "Notitas",
+    "description": "Interfaz gráfica de la aplicación de Notitas, hecha con React, ShadCN, TailwindCSS. Soporte español e ingles.",
+    "languages": ["TypeScript", "React", "Vite"],
+    "url": "https://github.com/zchelalo/notitas_ui"
+  },
+  {
     "name": "saloncito_ui",
-    "description": "",
+    "description": "proyecto para Universidad Tecnologica de Nogales Sonora donde hacemos una plataforma de trabajo inspirada en classroom de google",
     "languages": ["TypeScript", "React", "Vite"],
     "url": "https://github.com/ErickCastroo/saloncito_ui"
   },

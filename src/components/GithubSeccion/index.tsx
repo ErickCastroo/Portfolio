@@ -1,20 +1,20 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react'
+import Slider from 'react-slick'
 
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next'
 
-import { repos } from '@/data/data.repos';
+import { repos } from '@/data/data.repos'
 
 import { FaJs, FaReact, FaNodeJs, FaPython, FaJava, FaCss3 } from 'react-icons/fa'
-import { SiC, SiExpo, SiExpress, SiMongodb, SiPhp, SiRedis, SiTailwindcss, SiTypescript, SiUnity, SiVite } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+import { SiC, SiExpo, SiExpress, SiMongodb, SiPhp, SiRedis, SiTailwindcss, SiTypescript, SiUnity, SiVite } from 'react-icons/si'
+import { TbBrandReactNative } from 'react-icons/tb'
 
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
+import 'slick-carousel/slick/slick-theme.css'
+import 'slick-carousel/slick/slick.css'
 
 const GitHubRepos: React.FC = () => {
 
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const settings = {
     dots: true,
@@ -40,7 +40,7 @@ const GitHubRepos: React.FC = () => {
         },
       },
     ],
-  };
+  }
 
   // Mapeo de lenguajes a íconos
   const languageIcons: { [key: string]: JSX.Element } = {
@@ -62,7 +62,7 @@ const GitHubRepos: React.FC = () => {
     C: <SiC />,
     PHP: <SiPhp />,
 
-  };
+  }
 
   return (
     <div className='w-full m-auto'>
@@ -71,16 +71,16 @@ const GitHubRepos: React.FC = () => {
           {repos.map((repo) => (
             <div key={repo.name} className='bg-slate-600 h-[450px] text-slate-200 rounded-xl'>
               <div className='h-56 bg-slate-500 flex justify-center items-center object-cover rounded-t-xl'>
-                <img src=""  alt="" className='w-full h-full object-cover rounded-t-xl' />
+                <img src=''  alt='' className='w-full h-full object-cover rounded-t-xl' />
               </div>
 
               <div className='flex flex-col items-center justify-center gap-4'>
                 <h2 className='text-2xl font-semibold'>{repo.name}</h2>
                 <p className='text-center'>{repo.description ? repo.description : t('DesProject')}</p>
 
-                <div className="flex gap-2">
+                <div className='flex gap-2'>
                   {repo.languages && repo.languages.map((language: string) => (
-                    <span key={language.trim()} className="text-xl">
+                    <span key={language.trim()} className='text-xl'>
                       {languageIcons[language.trim()] || language}
                     </span>
                   ))}
@@ -93,7 +93,7 @@ const GitHubRepos: React.FC = () => {
         </Slider>
       </div>
     </div>  
-  );
-};
+  )
+}
 
-export { GitHubRepos };
+export { GitHubRepos }

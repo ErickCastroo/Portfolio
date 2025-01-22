@@ -14,12 +14,12 @@ const GradientFollowMouse: React.FC<GradientFollowMouseProps> = ({ children }) =
     setGradientPosition({ x: clientX, y: clientY })
   }
 
-  // Establecer altura del gradiente como la altura del viewport
+
   useEffect(() => {
     const handleResize = () => {
       setGradientPosition(prev => ({
         ...prev,
-        y: window.innerHeight / 2, // El gradiente seguirá al mouse desde el centro
+        y: window.innerHeight / 2, 
       }))
     }
 
@@ -40,8 +40,8 @@ const GradientFollowMouse: React.FC<GradientFollowMouseProps> = ({ children }) =
           background: isDarkMode
             ? `radial-gradient(circle at ${gradientPosition.x}px ${gradientPosition.y}px, rgba(29, 78, 216, 0.15), transparent 70%)`
             : `radial-gradient(circle at ${gradientPosition.x}px ${gradientPosition.y}px, rgba(255, 204, 128, 0.5), transparent 70%)`,
-          minHeight: '100%', // Asegura que cubra todo el alto de la pantalla
-          minWidth: '100%', // Asegura que cubra todo el ancho de la pantalla
+          minHeight: '100%',
+          minWidth: '100%',
           position: 'absolute',
           top: 0,
           left: 0,

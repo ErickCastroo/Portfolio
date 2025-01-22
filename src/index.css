@@ -10,26 +10,23 @@ html {
   margin: 0 10px;
 }
 
-/* Estilo para el scrollbar */
 ::-webkit-scrollbar {
-  width: 8px; /* Tamaño del scrollbar */
-  height: 8px; /* Para el scrollbar horizontal */
+  width: 8px;
+  height: 8px;
 }
 
-/* Estilo para el "pulgar" del scrollbar (la parte que se mueve) */
 ::-webkit-scrollbar-thumb {
-  background-color: #a7afb8; /* Color del pulgar */
-  border-radius: 10px; /* Bordes redondeados */
-  border: 2px solid #F1F1F1; /* Bordes sutiles para el pulgar */
+  background-color: #a7afb8; 
+  border-radius: 10px; 
+  border: 2px solid #F1F1F1; 
 }
 
-/* Estilo para el track (parte sobre la que se mueve el pulgar) */
 ::-webkit-scrollbar-track {
-  background-color: #F1F1F1; /* Color del track */
-  border-radius: 10px; /* Bordes redondeados */
+  background-color: #F1F1F1;
+  border-radius: 10px;
 }
 
-/* Estilo para el track en estado hover (cuando el ratón está sobre el track) */
+
 ::-webkit-scrollbar-track:hover {
   background-color: #e0e0e0;
 }
