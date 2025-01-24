@@ -20,6 +20,10 @@ declare module 'i18next' {
         puntoexp1: string;
         titleexp2: string;
         fechaexp2: string;
+        collage: string;
+        carrer: string;
+        date: string;
+        profesional: string;
       };
     };
   }

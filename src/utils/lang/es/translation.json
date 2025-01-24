@@ -24,5 +24,10 @@
   "puntoexp2.1":"● Implementé componentes reutilizables, optimizando el desarrollo y mantenimiento del proyecto.",
   "puntoexp2.2":"● Diseñamos la aplicación con una arquitectura hexagonal, facilitando la separación de responsabilidades y asegurando una escalabilidad eficiente.",
   "puntoexp2.3":"● Notitas permite a los usuarios organizar tareas diarias, agregar notas rápidas y crear grupos para compartir información con amigos de manera intuitiva.",
-  "puntoexp2.4":"● Resultado: Una solución multiplataforma innovadora que demostró habilidades en diseño de arquitectura y colaboración en equipo."
+  "puntoexp2.4":"● Resultado: Una solución multiplataforma innovadora que demostró habilidades en diseño de arquitectura y colaboración en equipo.",
+
+  "college": "Universidad Tecnológica de Nogales Sonora.",
+  "carrer": "Ingeniería en Desarrollo y Gestión de Software",
+  "date": "Septiembre 2021 - Abril 2025",
+  "profesional": "Desarrollador FrontEnd"
 }

@@ -68,7 +68,7 @@ const repos: Repo[] = [
   },
   {
     "name": "NotitasSmartwatch",
-    "description": "NotitasSmartwatch es una adaptacion de Notitas pero lo estaos haciendo para todos los dispositivos inteligentes este repositorio es para el Smartwatch.",
+    "description": "Notitas Smartwatch es una adaptacion de Notitas pero lo estamos haciendo para todos los dispositivos inteligentes este repositorio es para el Smartwatch.",
     "languages": ["JavaScript", "ReactNative", "Expo", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/NotitasSmartwatch"
   },

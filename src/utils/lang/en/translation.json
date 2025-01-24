@@ -23,5 +23,10 @@
   "puntoexp2.1": "● I implemented reusable components, optimizing project development and maintenance.",
   "puntoexp2.2": "● We designed the application with a hexagonal architecture, facilitating the separation of responsibilities and ensuring efficient scalability.",
   "puntoexp2.3": "● Notitas allows users to organize daily tasks, add quick notes, and create groups to share information with friends in an intuitive way.",
-  "puntoexp2.4": "● Result: An innovative multiplatform solution that demonstrated skills in architecture design and team collaboration."
+  "puntoexp2.4": "● Result: An innovative multiplatform solution that demonstrated skills in architecture design and team collaboration.",
+  
+  "college": "Technological University of Nogales Sonora.",
+  "carrer": "Software Development and Management Engineering",
+  "date": "September 2021 - April 2025",
+  "profesional": "FrontEnd Developer"
 }
