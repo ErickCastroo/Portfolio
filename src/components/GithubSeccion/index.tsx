@@ -77,10 +77,10 @@ const GitHubRepos: React.FC = () => {
                 <img src='' alt='' className='w-full h-full object-cover rounded-t-xl' />
               </div>
               <div className='flex flex-col items-center justify-center gap-4'>
-                <h2 className='text-2xl font-semibold text-neutral-800 dark:text-slate-200'>{repo.name}</h2>
-                <p className='text-center truncate max-w-full text-neutral-800 dark:text-slate-200'>{repo.description ? repo.description : t('DesProject')}</p>
+                <h2 className='text-2xl font-semibold text-neutral-700 dark:text-slate-200'>{repo.name}</h2>
+                <p className='text-center truncate max-w-full text-neutral-700 dark:text-slate-200'>{repo.description ? repo.description : t('DesProject')}</p>
 
-                <div className='flex gap-2 text-orange-300 dark:text-slate-200'>
+                <div className='flex gap-2 text-indigo-300 dark:text-slate-200'>
                   {repo.languages && repo.languages.map((language: string) => (
                     <span key={language.trim()} className='text-xl'>
                       {languageIcons[language.trim()] || language}
@@ -89,7 +89,7 @@ const GitHubRepos: React.FC = () => {
                 </div>
               </div>
               <div className='flex items-end justify-center mt-4'>
-                <a href={repo.url} target='_blank' rel='noreferrer' className='text-orange-400 bg-neutral-50 hover:bg-orange-200 dark:hover:bg-slate-500 dark:text-slate-300 dark:bg-slate-900 p-2 rounded-lg'>{t('ViewonGitHub')}</a>
+                <a href={repo.url} target='_blank' rel='noreferrer' className='text-indigo-400 bg-neutral-50 hover:bg-indigo-200 dark:hover:bg-slate-500 dark:text-slate-300 dark:bg-slate-900 p-2 rounded-lg'>{t('ViewonGitHub')}</a>
               </div>
             </div>
           ))}

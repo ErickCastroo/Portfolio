@@ -11,8 +11,9 @@
   "DesProject": "Sin Descripción Previa",
   "titleexp1": "Saloncito",
   "titleexp2": "Notitas",
-  "fechaexp1": "Septiembre 2023 – Diciembre 2024",
+  "fechaexp1": "Septiembre 2024 – Actualmente",
   "fechaexp2": "Mayo 2024 – Agosto 2024",
+  "Projectofclass": "Proyecto de Clase",
   "descexp1": "Participé en el desarrollo de Saloncito, una plataforma educativa inspirada en Google Classroom, diseñada para facilitar la organización de clases, la entrega de tareas, la comunicación y la evaluación académica.",
   "descexp2": "Desarrollé una aplicación de notas con React, Node.js, Express, y MongoDB. La aplicación permitía a los usuarios crear, editar, y eliminar notas, así como autenticarse y almacenar notas en la base de datos, ademas el usuario puede compartir notas con otros usuarios creando grupos.",
 

@@ -62,7 +62,7 @@ const Skills: React.FC = () => {
               {category.icons.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center text-gray-700 dark:text-gray-300 hover:text-orange-300 dark:hover:text-slate-950"
+                  className="flex flex-col items-center text-gray-700 dark:text-gray-300 hover:text-indigo-300 dark:hover:text-slate-950"
                 >
                   <div className="text-4xl">{skill.icon}</div>
                   <p className="text-sm mt-2">{skill.name}</p>

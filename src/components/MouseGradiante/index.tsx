@@ -32,15 +32,15 @@ const GradientFollowMouse: React.FC<GradientFollowMouseProps> = ({ children }) =
   return (
     <div
       onMouseMove={handleMouseMove}
-      className={`relative w-full min-h-screen ${isDarkMode ? 'bg-slate-900' : 'bg-white'}`}
+      className={`relative w-full min-h-screen ${isDarkMode ? 'bg-slate-900' : 'bg-indigo-50'}`}
     >
       <div
         className="absolute inset-0"
         style={{
           background: isDarkMode
             ? `radial-gradient(circle at ${gradientPosition.x}px ${gradientPosition.y}px, rgba(29, 78, 216, 0.15), transparent 70%)`
-            : `radial-gradient(circle at ${gradientPosition.x}px ${gradientPosition.y}px, rgba(255, 204, 128, 0.5), transparent 70%)`,
-          minHeight: '100%',
+            : `radial-gradient(circle at ${gradientPosition.x}px ${gradientPosition.y}px, rgba(147, 161, 255, 0.6), rgba(56, 65, 255, 0.7) 100%, transparent 100%)`,
+            minHeight: '100%',
           minWidth: '100%',
           position: 'absolute',
           top: 0,

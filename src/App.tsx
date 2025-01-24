@@ -24,11 +24,11 @@ const App: React.FC = () => {
       <GradientFollowMouse>
         <div className='relative w-full min-h-screen flex flex-col overflow-auto py-0'>
           <div className='flex justify-end items-center px-4 sm:px-8 lg:px-32'>
-            <button onClick={() => changeLanguage('en')} className='text-orange-300 dark:text-slate-300'>
+            <button onClick={() => changeLanguage('en')} className='text-indigo-300 dark:text-slate-300'>
               EN
             </button>
             <span className='mx-2'>|</span>
-            <button onClick={() => changeLanguage('es')} className='text-orange-300 dark:text-slate-300'>
+            <button onClick={() => changeLanguage('es')} className='text-indigo-300 dark:text-slate-300'>
               ES
             </button>
           </div>
@@ -41,30 +41,30 @@ const App: React.FC = () => {
               <img
                 src='/images/erick-castro.jpg'
                 alt='Erick Castro'
-                className='w-96 h-96 rounded-full border-4 border-orange-200 dark:border-slate-100 shadow-lg'
+                className='w-96 h-96 rounded-full border-4 border-indigo-200 dark:border-slate-100 shadow-lg'
               />
             </div>
           </div>
 
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-4' id='proyectos'>{t('projects')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-indigo-50 mb-4' id='proyectos'>{t('projects')}</h1>
             <GitHubRepos />
           </div>
 
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-5' id='skills'>{t('skills')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-indigo-50 mb-5' id='skills'>{t('skills')}</h1>
             <p className='dark:text-slate-200'>
               <Skills />
             </p>
           </div>
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-5' id='experiencia'>{t('experince')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-indigo-50 mb-5' id='experiencia'>{t('experince')}</h1>
             <p className='dark:text-slate-200'>
               <Experiencia />
             </p>
           </div>
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-5' id='educacion'>{t('education')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-indigo-50 mb-5' id='educacion'>{t('education')}</h1>
             <p className='dark:text-slate-200'>
               <Educacion />
             </p>

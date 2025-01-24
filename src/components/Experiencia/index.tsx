@@ -1,79 +1,84 @@
+import React from 'react'
 import { useTranslation } from 'react-i18next'
 
+type CardProps = {
+  url: string
+  title: string
+  company: string
+  time: string
+  description: string
+  tags: string[]
+}
 
-function Experiencia() {
+const Card: React.FC<CardProps> = ({ url, title, company, time, description, tags }) => (
+  <div className='cursor-pointer p-6 rounded-lg hover:shadow-lg hover:shadow-white/50 dark:hover:shadow-cyan-500/50 transition-shadow'>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={url}
+      className='w-full h-full block'>
+      <h3 className='text-lg font-bold text-white dark:text-cyan-400'>{title}</h3>
+      <p className='text-sm text-white dark:text-cyan-300'>{company}</p>
+      <p className='text-xs text-white dark:text-cyan-500 mb-3'>{time}</p>
+      <p className='text-sm text-white dark:text-gray-300'>{description}</p>
+      <div className='flex flex-wrap gap-2 mt-3'>
+        {tags.map((tag, index) => (
+          <span
+            key={index}
+            className='bg-indigo-600 text-indigo-100 dark:bg-cyan-600 dark:text-cyan-100 text-xs px-2 py-1 rounded-full'
+          >
+            {tag}
+          </span>
+        ))}
+      </div>
+    </a>
+  </div>
+)
+
+type SectionProps = {
+  title: string
+  items: CardProps[]
+}
+
+const Section: React.FC<SectionProps> = ({ items }) => (
+  <div className='flex flex-col'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
+      {items.map((item, index) => (
+        <Card key={index} {...item} />
+      ))}
+    </div>
+  </div>
+)
+
+const Experiencia: React.FC = () => {
   const { t } = useTranslation()
+
+  const experience = [
+    {
+      'url': 'https://github.com/ErickCastroo/saloncito_ui',
+      title: t('titleexp1'),
+      company: 'UTN',
+      time: t('fechaexp1'),
+      description: t('descexp1'),
+      tags: ['React', 'TypeScript', 'Tailwind', 'REST', 'Figma'],
+    },
+    {
+      'url': 'https://github.com/zchelalo/notitas_ui',
+      title: t('titleexp2'),
+      company: t('Projectofclass'),
+      time: t('fechaexp2'),
+      description: t('descexp2'),
+      tags: ['React', 'JavaScript', 'Tailwind', 'REST', 'Figma'],
+    },
+  ]
+
   return (
-    <div className=''>
-
-      <div className='mb-12'>
-        <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center'>
-          <h2 className='text-xl sm:text-2xl font-bold text-center sm:text-left text-neutral-700 dark:text-slate-200'>
-            {t('titleexp2')}
-          </h2>
-          <p className='text-gray-600 dark:text-slate-300 font-bold text-sm sm:text-base mt-2 sm:mt-0 text-center sm:text-right'>
-            {t('fechaexp2')}
-          </p>
-        </div>
-        <div>
-          <p className='text-base text-gray-600 dark:text-slate-300 font-bold mb-4 text-center sm:text-left'>
-            {t('profesional')}
-          </p>
-          <p className='text-sm sm:text-base text-justify text-neutral-600 dark:text-slate-300 mb-4'>
-            {t('descexp2')}
-          </p>
-          <ul className='pl-4 text-sm sm:text-base'>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp2.1')}
-            </li>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp2.2')}
-            </li>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp2.3')}
-            </li>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp2.4')}
-            </li>
-          </ul>
+    <div className='w-full text-white p-8'>
+      <div>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+          <Section title={t('Experience')} items={experience} />
         </div>
       </div>
-
-      <hr className='border-t border-slate-300 dark:border-slate-600 mb-12' />
-      <div className='mb-12'>
-        <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center'>
-          <h2 className='text-xl sm:text-2xl font-bold text-center sm:text-left text-neutral-700 dark:text-slate-200  '>
-            {t('titleexp1')}
-          </h2>
-          <p className='text-gray-600 dark:text-slate-200 font-bold text-sm sm:text-base mt-2 sm:mt-0 text-center sm:text-right'>
-            {t('fechaexp1')}
-          </p>
-        </div>
-        <div>
-          <p className='text-base text-gray-600 dark:text-slate-300 font-bold mb-4 text-center sm:text-left'>
-          {t('profesional')}
-          </p>
-          <p className='text-sm sm:text-base text-justify text-neutral-600 dark:text-slate-300 mb-4'>
-            {t('descexp1')}
-          </p>
-          <ul className='pl-4 text-sm sm:text-base'>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp1.1')}
-            </li>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp1.2')}
-            </li>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp1.3')}
-            </li>
-            <li className='text-neutral-600 dark:text-[#94A3B8] mb-1'>
-              {t('puntoexp1.4')}
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-      <hr className='border-t border-slate-300 dark:border-slate-600 ' />
     </div>
   )
 }

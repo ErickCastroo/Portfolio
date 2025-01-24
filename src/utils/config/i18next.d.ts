@@ -24,6 +24,7 @@ declare module 'i18next' {
         carrer: string;
         date: string;
         profesional: string;
+        Projectofclass: string;
       };
     };
   }
