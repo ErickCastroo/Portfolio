@@ -22,16 +22,18 @@ const App: React.FC = () => {
   return (
     <ThemeProvider>
       <GradientFollowMouse>
+        <ThemeSwitcher />
         <div className='relative w-full min-h-screen flex flex-col overflow-auto py-0'>
-          <div className='flex justify-end items-center px-4 sm:px-8 lg:px-32'>
-            <button onClick={() => changeLanguage('en')} className='text-indigo-300 dark:text-slate-300'>
-              EN
-            </button>
-            <span className='mx-2'>|</span>
-            <button onClick={() => changeLanguage('es')} className='text-indigo-300 dark:text-slate-300'>
-              ES
-            </button>
+          <div className='fixed top-5 right-32 flex justify-end items-center space-x-4 sm:space-x-8 lg:space-x-10 z-10'>
+            <select
+              onChange={(e) => changeLanguage(e.target.value)}
+              className='text-sm px-3 py-1 text-indigo-300 dark:text-slate-200 rounded-lg border border-transparent hover:bg-indigo-500 hover:text-white dark:hover:bg-slate-800 dark:bg-slate-900 transition-all duration-300'
+            >
+              <option value="es">ES</option>
+              <option value="en">EN</option>  
+            </select>
           </div>
+
 
           <div className='flex flex-col md:flex-row justify-center items-center mx-4 sm:mx-8 lg:mx-32'>
             <div className='flex justify-start items-center w-full md:w-3/5 p-4'>
@@ -69,7 +71,6 @@ const App: React.FC = () => {
               <Educacion />
             </p>
           </div>
-          <ThemeSwitcher />
         </div>
       </GradientFollowMouse>
     </ThemeProvider>

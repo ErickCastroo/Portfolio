@@ -1,9 +1,10 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaDatabase, FaLinux } from "react-icons/fa";
-import { SiVite, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiPostgresql, SiMysql, SiMongodb, SiAndroidstudio, SiI18Next } from "react-icons/si";
+import { SiVite, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiPostgresql, SiMysql, SiMongodb, SiAndroidstudio} from "react-icons/si";
 import { BsFillGearFill } from "react-icons/bs";
 import { RiBook2Line } from "react-icons/ri";
 import { FiFigma } from "react-icons/fi";
+import { motion } from "framer-motion"; // Importamos motion
 
 const skillsData = [
   {
@@ -40,7 +41,6 @@ const skillsData = [
     icons: [
       { icon: <RiBook2Line />, name: "Obsidian" },
       { icon: <FiFigma />, name: "Figma" },
-      { icon: <SiI18Next />, name: "i18n" },
       { icon: <SiAndroidstudio />, name: "Android Studio" },
       { icon: <FaLinux />, name: "Linux" },
       { icon: <BsFillGearFill />, name: "Soporte Técnico" },
@@ -60,13 +60,16 @@ const Skills: React.FC = () => {
             <h3 className="text-xl font-semibold mb-4 dark:text-slate-200">{category.title}</h3>
             <div className="flex flex-wrap justify-center gap-4">
               {category.icons.map((skill, index) => (
-                <div
+                <motion.div
                   key={index}
                   className="flex flex-col items-center text-gray-700 dark:text-gray-300 hover:text-indigo-300 dark:hover:text-slate-950"
+                  whileHover={{ scale: 1.2 }}  // Aumentamos el tamaño al pasar el cursor
+                  whileTap={{ scale: 0.9 }}  // Reducimos el tamaño al hacer clic
+                  transition={{ type: "spring", stiffness: 300 }} // Suavizamos la animación
                 >
                   <div className="text-4xl">{skill.icon}</div>
                   <p className="text-sm mt-2">{skill.name}</p>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
@@ -76,4 +79,4 @@ const Skills: React.FC = () => {
   );
 };
 
-export { Skills }
+export { Skills };
