@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import i18n from '@/utils/config/I18n'
 import { ThemeProvider } from '@/context/ThemeContext'
 
+import { Skills } from '@/components/Skills'
 import { Header } from '@/components/Header'
 import { Educacion } from './components/Educacion'
 import { Experiencia } from '@/components/Experiencia'
@@ -46,24 +47,28 @@ const App: React.FC = () => {
           </div>
 
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='text-4xl dark:text-slate-300 text-orange-300 mb-4' id='proyectos'>{t('projects')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-4' id='proyectos'>{t('projects')}</h1>
             <GitHubRepos />
           </div>
 
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='text-4xl dark:text-slate-300 text-orange-300 mb-5' id='experiencia'>{t('experince')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-5' id='skills'>{t('skills')}</h1>
             <p className='dark:text-slate-200'>
-              <Experiencia />  
+              <Skills />
             </p>
           </div>
-
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='text-4xl dark:text-slate-300 text-orange-300 mb-5' id='experiencia'>{t('education')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-5' id='experiencia'>{t('experince')}</h1>
+            <p className='dark:text-slate-200'>
+              <Experiencia />
+            </p>
+          </div>
+          <div className='sm:mx-8 lg:mx-32 mt-20'>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-orange-300 mb-5' id='educacion'>{t('education')}</h1>
             <p className='dark:text-slate-200'>
               <Educacion />
             </p>
           </div>
-
           <ThemeSwitcher />
         </div>
       </GradientFollowMouse>

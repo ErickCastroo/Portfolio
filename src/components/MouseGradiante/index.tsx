@@ -32,7 +32,7 @@ const GradientFollowMouse: React.FC<GradientFollowMouseProps> = ({ children }) =
   return (
     <div
       onMouseMove={handleMouseMove}
-      className={`relative w-full min-h-screen ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'}`}
+      className={`relative w-full min-h-screen ${isDarkMode ? 'bg-slate-900' : 'bg-white'}`}
     >
       <div
         className="absolute inset-0"
