@@ -74,7 +74,7 @@ const GitHubRepos: React.FC = () => {
           {repos.map((repo) => (
             <div key={repo.name} className='dark:bg-slate-600 bg-gray-200  h-[450px] dark:text-slate-200 rounded-xl flex flex-col'>
               <div className='h-56 dark:bg-slate-500 bg-gray-100 flex justify-center items-center object-cover rounded-t-xl'>
-                <img src='' alt='' className='w-full h-full object-cover rounded-t-xl' />
+                <img src={repo.image} className='h-52' /> 
               </div>
               <div className='flex flex-col items-center justify-center gap-4'>
                 <h2 className='text-2xl font-semibold text-neutral-700 dark:text-slate-200'>{repo.name}</h2>
