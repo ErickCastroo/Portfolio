@@ -82,7 +82,7 @@ const SocialLinks: React.FC<SocialLinksProps> = () => {
       ),
     },
     {
-      href: './images/CVErickMiguelCastroCamacho.pdf',
+      href: './images/CVErick MiguelCastroCamacho.docx.pdf',
       label: 'Curriculum',
       ariaLabel: 'Descargar Curriculum (abre en una nueva pestaña)',
       icon: () => (
