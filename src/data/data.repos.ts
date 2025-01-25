@@ -29,28 +29,136 @@ const repos: Repo[] = [
     "url": "https://github.com/ErickCastroo/saloncito_ui"
   },
   {
+    "image": "./images/proyectos/Calorias.png",
     "name": "ContadorDeCalorias",
     "description": "En este proyecto apriendi a usar mejor typescript junto con UseReducer",
     "languages": ["TypeScript", "React", "Vite"],
     "url": "https://github.com/ErickCastroo/ContadorDeCalorias"
   },
   {
-    "name": "Jatic_ui",
-    "description": "proyecto para Universidad Tecnologica de Nogales Sonora",
-    "languages": ["TypeScript", "React", "Vite"],
-    "url": "https://github.com/ErickCastroo/Jatic_ui"
+    "image": "./images/proyectos/APIRM.png",
+    "name": "React-RickAndMorty-Api",
+    "description": "Consumiendo la API de Rick and Morty con React",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-RickAndMorty-Api"
   },
   {
-    "name": "Calculadora-de-propinas",
+    "image": "./images/proyectos/ReactContext.png",
+    "name": "React-useContext",
+    "description": "mejorando Logica de UseContext",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-useContext"
+  },
+  {
+    "image": "./images/proyectos/tweet.png",
+    "name": "React-Tweet",
+    "description": "Proyecto donde consumo la API de Twitter",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-Tweet"
+  },
+  {
+    "image": "./images/proyectos/ReactGalery.png",
+    "name": "React-galery",
+    "description": "Proyecto donde aprendi a usar galerias con React",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-galery"
+  },
+  {
+    "image": "./images/proyectos/ReactHo.png",
+    "name": "React-hook-form",
+    "description": "Proyecto donde aprendi a usar React-hook-form",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-hook-form"
+  },
+  {
+    "image": "./images/proyectos/tanstack.png",
+    "name": "React-table-tanstack",
+    "description": "Proyecto donde aprendi a usar React-table-tanstack",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-table-tanstack"
+  },
+  {
+    "image": "./images/proyectos/ReactSelect.png",
+    "name": "React-select",
+    "description": "Proyecto donde aprendi a usar React-select",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-select"
+  },
+  {
+    "image": "./images/proyectos/Player.png",
+    "name": "React-Player",
+    "description": "Aqui aprendi hacer un visualizador de contenido",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-Player"
+  },
+  {
+    "image": "./images/proyectos/Dropzone.png",
+    "name": "React-Dropzone",
+    "description": "Aprendi como poder hacer un dropzone",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-Dropzone"
+  },
+  {
+    image: "./images/proyectos/Cards.png",
+    "name": "React-Cards",
+    "description": "En este proyecto aprendi hacer unas cartas en react",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-Cards"
+  },
+  {
+    "image": "./images/proyectos/Gastos.png",
+    "name": "Administrar-tus-gastos-e-ingresos",
+    "description": "App para poder administrar tus gastos e ingresos",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/Administrar-tus-gastos-e-ingresos"
+  },
+  {
+    "image": "./images/proyectos/Coin.png",
+    "name": "React-coinGecko",
+    "description": "App donde puedes ver los precios de las criptomonedas según la cap. de mercado",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-coinGecko"
+  },
+  {
+    "image": "./images/proyectos/ReactPDF.png",
+    "name": "React-PDF",
+    "description": "Creacion de pdf con react",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-PDF"
+  },
+  {
+    "image": "./images/proyectos/DragandDrop.png",
+    "name": "Drag-and-Drop-React-App",
     "description": "",
-    "languages": ["TypeScript", "React", "Vite"],
-    "url": "https://github.com/ErickCastroo/Calculadora-de-propinas"
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/Drag-and-Drop-React-App"
+  },
+  {
+    image: "./images/proyectos/TareasApp.png",
+    "name": "tareas-app",
+    "description": "",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/tareas-app"
+  },
+  {
+    "image": "./images/proyectos/CustomH.png",
+    "name": "tutorial-custom-hook",
+    "description": "Proyecto donde aprendi a hacer un custom hook para manejar el estado",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/tutorial-custom-hook"
+  },
+  {
+    "image": "./images/proyectos/PrimerApp.png",
+    "name": "Mi-primera-APP-con-react",
+    "description": "",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/Mi-primera-APP-con-react"
   },
   {
     "name": "RPG-Game",
     "description": "",
     "languages": ["Unity", "C"],
-    "url": "https://github.com/ErickCastroo/RPG-Game"
+    "url": "https://drive.google.com/file/d/1wbL1P8zZdD4ZisZ2iw9XCoFpXSlOKxPa/view"
   },
   {
     "name": "GuitarraLA-TS",
@@ -64,6 +172,42 @@ const repos: Repo[] = [
     "languages": ["JavaScript", "React", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/GuitarraLA"
   },
+  {
+    "name": "Jatic_ui",
+    "description": "proyecto para Universidad Tecnologica de Nogales Sonora",
+    "languages": ["TypeScript", "React", "Vite"],
+    "url": "https://github.com/ErickCastroo/Jatic_ui"
+  },
+  {
+    "name": "Demos",
+    "description": "Demos de diseño y funcionalidad para Jatic",
+    "languages": ["JavaScript"],
+    "url": "https://github.com/ErickCastroo/Demos"
+  },
+  {
+    "name": "Calculadora-de-propinas",
+    "description": "",
+    "languages": ["TypeScript", "React", "Vite"],
+    "url": "https://github.com/ErickCastroo/Calculadora-de-propinas"
+  },
+  {
+    "name": "React-Leaflet",
+    "description": "Proyecto donde aprendi a usar Leaflet con React",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-Leaflet"
+  },
+  {
+    "name": "React-Copy-to-Clipboard-App",
+    "description": " App para copiar al portapapeles con react",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/React-Copy-to-Clipboard-App"
+  },
+  {
+    "name": "react-router-rutas-protegidas",
+    "description": "Proyecto donde aprendi a hacer rutas protegidas para evitar que usuarios no autorizados accedan a ciertas rutas de la aplicación.",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/react-router-rutas-protegidas"
+  }, 
   {
     "name": "NotitasNativo",
     "description": "",
@@ -89,12 +233,6 @@ const repos: Repo[] = [
     "url": "https://github.com/ErickCastroo/NotitasNative"
   },
   {
-    "name": "Demos",
-    "description": "",
-    "languages": ["JavaScript"],
-    "url": "https://github.com/ErickCastroo/Demos"
-  },
-  {
     "name": "NodeJS-RestAPI-MongoDB",
     "description": "Rest API con mongoDB donde hacemos un crud de tareas, donde en un futuro le haremos un Front con ReactJS",
     "languages": ["JavaScript", "Node", "Express", "MongoDB"],
@@ -102,7 +240,7 @@ const repos: Repo[] = [
   },
   {
     "name": "Node-Redis",
-    "description": "",
+    "description": "Aprendiendo a usar Redis con NodeJS",
     "languages": ["JavaScript", "Node", "Express", "Redis"],
     "url": "https://github.com/ErickCastroo/Node-Redis"
   },
@@ -114,37 +252,37 @@ const repos: Repo[] = [
   },
   {
     "name": "RESTAPI-PostgreSQL",
-    "description": "",
+    "description": " API REST con PostgreSQL, Express y NodeJS, donde se realizan operaciones CRUD sobre una base de datos PostgreSQL.",
     "languages": ["JavaScript", "Node", "Express", "PostgreSQL"],
     "url": "https://github.com/ErickCastroo/RESTAPI-PostgreSQL"
   },
   {
-    "name": "nodeJS-stripe",
+    "name": "NodeJS-stripe",
     "description": "API de prueba utilizando NodeJS y Stripe",
     "languages": ["JavaScript", "Node", "Express", "Stripe"],
     "url": "https://github.com/ErickCastroo/nodeJS-stripe"
   },
   {
     "name": "RestAPI-de-peliculas",
-    "description": "",
+    "description": " API REST con Express y NodeJS para gestionar películas.",
     "languages": ["JavaScript", "Node", "Express",],
     "url": "https://github.com/ErickCastroo/RestAPI-de-peliculas"
   },
   {
     "name": "Proyecto-Node-EJS",
-    "description": "",
+    "description": " Proyecto de NodeJS con EJS, Express.",
     "languages": ["EJS", "Node", "Express"],
     "url": "https://github.com/ErickCastroo/Proyecto-Node-EJS"
   },
   {
-    "name": "restAPI-crud",
-    "description": "",
+    "name": "RestAPI-crud",
+    "description": " API REST con Express y NodeJS para gestionar usuarios, con operaciones CRUD.",
     "languages": ["JavaScript", "Node", "Express"],
     "url": "https://github.com/ErickCastroo/restAPI-crud"
   },
   {
     "name": "Node-Website",
-    "description": "",
+    "description": " Sitio web con NodeJS y Express.",
     "languages": ["JavaScript", "Node", "Express"],
     "url": "https://github.com/ErickCastroo/Node-Website"
   },
@@ -167,134 +305,14 @@ const repos: Repo[] = [
     "url": "https://github.com/ErickCastroo/CRUD-MongoDB-Node-ReactJS"
   },
   {
-    "name": "React-RickAndMorty-Api",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-RickAndMorty-Api"
-  },
-  {
-    "name": "React-useContext",
-    "description": "mejorando Logica de UseContext",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-useContext"
-  },
-  {
-    "name": "React-Tweet",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-Tweet"
-  },
-  {
-    "name": "React-Leaflet",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-Leaflet"
-  },
-  {
-    "name": "React-galery",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-galery"
-  },
-  {
-    "name": "React-hook-form",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-hook-form"
-  },
-  {
-    "name": "React-table-tanstack",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-table-tanstack"
-  },
-  {
-    "name": "React-select",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-select"
-  },
-  {
-    "name": "React-Player",
-    "description": "Aqui aprendi hacer un visualizador de contenido",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-Player"
-  },
-  {
-    "name": "React-Dropzone",
-    "description": "Aprendi como poder hacer un dropzone",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-Dropzone"
-  },
-  {
-    "name": "React-Copy-to-Clipboard-App",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-Copy-to-Clipboard-App"
-  },
-  {
-    "name": "React-Cards",
-    "description": "En este proyecto aprendi hacer unas cartas en react",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-Cards"
-  },
-  {
-    "name": "Administrar-tus-gastos-e-ingresos",
-    "description": "App para poder administrar tus gastos e ingresos",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/Administrar-tus-gastos-e-ingresos"
-  },
-  {
-    "name": "React-coinGecko",
-    "description": "App donde puedes ver los precios de las criptomonedas según la cap. de mercado",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-coinGecko"
-  },
-  {
-    "name": "React-PDF",
-    "description": "Creacion de pdf con react",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/React-PDF"
-  },
-  {
-    "name": "Drag-and-Drop-React-App",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/Drag-and-Drop-React-App"
-  },
-  {
-    "name": "react-router-rutas-protegidas",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/react-router-rutas-protegidas"
-  },
-  {
-    "name": "tareas-app",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/tareas-app"
-  },
-  {
-    "name": "tutorial-custom-hook",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/tutorial-custom-hook"
-  },
-  {
     "name": "chat-prueba",
     "description": "Test del diseño y funcionalidad básica de un chatbot.",
     "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/chat-prueba"
   },
   {
-    "name": "Mi-primera-APP-con-react",
-    "description": "",
-    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/Mi-primera-APP-con-react"
-  },
-  {
     "name": "OsilUtn",
-    "description": "proyecto para UTN",
+    "description": "proyecto para las escuelas de la Universidad Tecnologica de Nogales Sonora como proyecto de estadía",
     "languages": ["PHP"],
     "url": "https://github.com/ErickCastroo/OsilUtn"
   },
