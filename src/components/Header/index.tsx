@@ -6,7 +6,7 @@ function Header() {
   const { t } = useTranslation()
 
   return (
-    <div className='flex flex-col items-start justify-center py-20 text-center'>
+    <div className='flex flex-col items-start justify-center py-20'>
       <h1 className='text-4xl font-bold text-indigo-50  dark:text-slate-200 sm:text-5xl'>
         <a href='/'>Erick Miguel Castro Camacho</a>
       </h1>
@@ -15,7 +15,7 @@ function Header() {
         Front End Developer
       </h2>
 
-      <p className='mt-2 text-justify text-white dark:text-[#94A3B8]'>
+      <p className='mt-2 text-pretty text-white dark:text-[#94A3B8]'>
         {t('description')}
       </p>
       <SocialLinks />

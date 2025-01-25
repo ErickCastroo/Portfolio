@@ -50,27 +50,31 @@ const skillsData = [
 
 const Skills: React.FC = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-8 lg:px-16">
-      <div className="grid grid-cols-2 gap-6">
+    <div className="">
+      <div className="flex flex-wrap">
         {skillsData.map((category) => (
           <div
+            className="flex flex-col w-full sm:w-1/2 md:w-1/3 xl:w-1/4 mt-4 px-2"
             key={category.title}
-            className="bg-gray-200 dark:bg-slate-600 rounded-lg p-4 shadow-lg flex flex-col"
           >
-            <h3 className="text-xl font-semibold mb-4 dark:text-slate-200">{category.title}</h3>
-            <div className="flex flex-wrap justify-center gap-4">
-              {category.icons.map((skill, index) => (
-                <motion.div
-                  key={index}
-                  className="flex flex-col items-center text-gray-700 dark:text-gray-300 hover:text-indigo-300 dark:hover:text-slate-950"
-                  whileHover={{ scale: 1.2 }}  // Aumentamos el tamaño al pasar el cursor
-                  whileTap={{ scale: 0.9 }}  // Reducimos el tamaño al hacer clic
-                  transition={{ type: "spring", stiffness: 300 }} // Suavizamos la animación
-                >
-                  <div className="text-4xl">{skill.icon}</div>
-                  <p className="text-sm mt-2">{skill.name}</p>
-                </motion.div>
-              ))}
+            <div
+              className="bg-gray-200 dark:bg-slate-600 flex-1 rounded-lg p-4 shadow-lg"
+            >
+              <h3 className="text-xl font-semibold mb-4 dark:text-slate-200">{category.title}</h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                {category.icons.map((skill, index) => (
+                  <motion.div
+                    key={index}
+                    className="flex flex-col items-center text-gray-700 dark:text-gray-300 hover:text-indigo-300 dark:hover:text-slate-950"
+                    whileHover={{ scale: 1.2 }} 
+                    whileTap={{ scale: 0.9 }} 
+                    transition={{ type: "spring", stiffness: 300 }}
+                  >
+                    <div className="text-4xl">{skill.icon}</div>
+                    <p className="text-sm mt-2">{skill.name}</p>
+                  </motion.div>
+                ))}
+              </div>
             </div>
           </div>
         ))}

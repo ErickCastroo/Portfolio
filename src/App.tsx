@@ -27,7 +27,7 @@ const App: React.FC = () => {
           <div className='fixed top-5 right-32 flex justify-end items-center space-x-4 sm:space-x-8 lg:space-x-10 z-10'>
             <select
               onChange={(e) => changeLanguage(e.target.value)}
-              className='text-sm px-3 py-1 text-indigo-300 dark:text-slate-200 rounded-lg border border-transparent hover:bg-indigo-500 hover:text-white dark:hover:bg-slate-800 dark:bg-slate-900 transition-all duration-300'
+              className='text-sm px-3 py-1 text-white dark:text-slate-200 rounded-lg border border-transparent hover:bg-indigo-500 hover:text-white dark:hover:bg-slate-800 dark:bg-transparent bg-transparent transition-all duration-300'
             >
               <option value="es">ES</option>
               <option value="en">EN</option>  
@@ -60,7 +60,7 @@ const App: React.FC = () => {
             </p>
           </div>
           <div className='sm:mx-8 lg:mx-32 mt-20'>
-            <h1 className='mx-2 text-4xl dark:text-slate-300 text-indigo-50 mb-5' id='experiencia'>{t('experince')}</h1>
+            <h1 className='mx-2 text-4xl dark:text-slate-300 text-indigo-50 mb-5' id='experiencia'>{t('experience')}</h1>
             <p className='dark:text-slate-200'>
               <Experiencia />
             </p>

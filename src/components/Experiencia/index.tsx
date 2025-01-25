@@ -11,9 +11,9 @@ type CardProps = {
 }
 
 const Card: React.FC<CardProps> = ({ url, title, company, time, description, tags }) => (
-  <div className='cursor-pointer p-6 rounded-lg hover:shadow-lg hover:shadow-white/50 dark:hover:shadow-cyan-500/50 transition-shadow'>
+  <div className='cursor-pointer p-6 rounded-lg hover:shadow-lg shadow-xl hover:shadow-white/50 dark:hover:shadow-cyan-500/50 transition-shadow'>
     <a
-    target="_blank"          // Hace que el enlace se abra en una nueva pestaña
+    target="_blank"
     rel="noopener noreferrer"
       href={url}
       className='w-full h-full block'>
@@ -73,12 +73,10 @@ const Experiencia: React.FC = () => {
   ]
 
   return (
-    <div className='w-full text-white p-8'>
-      <div>
+    <div className='w-full text-white p-2'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
           <Section title={t('Experience')} items={experience} />
         </div>
-      </div>
     </div>
   )
 }

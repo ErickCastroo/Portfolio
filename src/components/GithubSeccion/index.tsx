@@ -12,16 +12,21 @@ import { TbBrandReactNative } from 'react-icons/tb'
 import 'slick-carousel/slick/slick-theme.css'
 import 'slick-carousel/slick/slick.css'
 
+
+
 const GitHubRepos: React.FC = () => {
 
   const { t } = useTranslation()
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -37,6 +42,8 @@ const GitHubRepos: React.FC = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: false,
+          arrows: false,
+          accessibility: true,
         },
       },
     ],
@@ -78,7 +85,7 @@ const GitHubRepos: React.FC = () => {
               </div>
               <div className='flex flex-col items-center justify-center gap-4'>
                 <h2 className='text-2xl font-semibold text-neutral-700 dark:text-slate-200'>{repo.name}</h2>
-                <p className='text-center truncate max-w-full text-neutral-700 dark:text-slate-200'>{repo.description ? repo.description : t('DesProject')}</p>
+                <p className='text-center truncate max-w-full px-2 text-neutral-700 dark:text-slate-200'>{repo.description ? repo.description : t('DesProject')}</p>
 
                 <div className='flex gap-2 text-indigo-300 dark:text-slate-200'>
                   {repo.languages && repo.languages.map((language: string) => (
