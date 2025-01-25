@@ -41,7 +41,7 @@ const App: React.FC = () => {
             </div>
             <div className='flex justify-center w-full md:w-2/5'>
               <img
-                src='/images/erick-castro.jpg'
+                src='./images/erick-castro.jpg'
                 alt='Erick Castro'
                 className='w-96 h-96 rounded-full border-4 border-indigo-200 dark:border-slate-100 shadow-lg'
               />

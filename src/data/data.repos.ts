@@ -8,21 +8,21 @@ type Repo = {
 
 const repos: Repo[] = [
   {
-    "image": "/images/proyectos/Gastitos.png",
+    "image": "./images/proyectos/Gastitos.png",
     "name": "Gastitos",
     "description": "Proyecto personal donde aprendí a usar Reducer, useMemo, Context API y mis propios hooks, hecho con React+typeScript+Vite",
     "languages": ["TypeScript", "React", "Vite"],
     "url": "https://github.com/ErickCastroo/Gastitos"
   },
   {
-    "image": "/images/proyectos/Notitas.png",
+    "image": "./images/proyectos/Notitas.png",
     "name": "Notitas",
     "description": "Interfaz gráfica de la aplicación de Notitas, hecha con React, ShadCN, TailwindCSS. Soporte español e ingles.",
     "languages": ["TypeScript", "React", "Vite"],
     "url": "https://github.com/zchelalo/notitas_ui"
   },
   {
-    "image": "/images/proyectos/Saloncito.png",
+    "image": "./images/proyectos/Saloncito.png",
     "name": "saloncito_ui",
     "description": "proyecto para Universidad Tecnologica de Nogales Sonora donde hacemos una plataforma de trabajo inspirada en classroom de google",
     "languages": ["TypeScript", "React", "Vite"],
