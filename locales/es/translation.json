@@ -1,0 +1,34 @@
+{
+  "description": "Hola, soy Erick, un apasionado de la programación web de 21 años. Actualmente, estoy estudiando una Ingeniería en Desarrollo y Gestión de Software. Programar se ha convertido en un hábito diario debido a mi entusiasmo por la tecnología. Me estoy especializando en el area de fronend. Me encanta aprender nuevas tecnologías y mantenerme actualizado con las últimas tendencias en el desarrollo web. En mi tiempo libre, disfruto jugando videojuegos y practicando baloncesto.",
+  "about": "Sobre mí",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+  "skills": "Habilidades",
+  "education": "Educación",
+  "portfolio": "Portafolio",
+  "experience": "Experiencia",
+  "ViewonGitHub": "Ver en GitHub",
+  "DesProject": "Sin Descripción Previa",
+  "titleexp1": "Saloncito",
+  "titleexp2": "Notitas",
+  "fechaexp1": "Septiembre 2024 – Actualmente",
+  "fechaexp2": "Mayo 2024 – Agosto 2024",
+  "Projectofclass": "Proyecto de Clase",
+  "descexp1": "Participé en el desarrollo de Saloncito, una plataforma educativa inspirada en Google Classroom, diseñada para facilitar la organización de clases, la entrega de tareas, la comunicación y la evaluación académica.",
+  "descexp2": "Desarrollé una aplicación de notas con React, Node.js, Express, y MongoDB. La aplicación permitía a los usuarios crear, editar, y eliminar notas, así como autenticarse y almacenar notas en la base de datos, ademas el usuario puede compartir notas con otros usuarios creando grupos.",
+
+  "puntoexp1.1":"● Implementé la interfaz de usuario en React y TypeScript, priorizando la accesibilidad y la experiencia del usuario.",
+  "puntoexp1.2":"● Colaboré en el desarrollo del backend, utilizando Node.js, para garantizar una arquitectura escalable y eficiente.",
+  "puntoexp1.3":"● Diseñé manuales de usuario y guías técnicas para desarrolladores, facilitando la comprensión de la plataforma.",
+  "puntoexp1.4":"● Resultado: Una solución educativa moderna que demostró habilidades de trabajo en equipo, desarrollo ágil y manejo de tecnologías de punta.",
+
+  "puntoexp2.1":"● Implementé componentes reutilizables, optimizando el desarrollo y mantenimiento del proyecto.",
+  "puntoexp2.2":"● Diseñamos la aplicación con una arquitectura hexagonal, facilitando la separación de responsabilidades y asegurando una escalabilidad eficiente.",
+  "puntoexp2.3":"● Notitas permite a los usuarios organizar tareas diarias, agregar notas rápidas y crear grupos para compartir información con amigos de manera intuitiva.",
+  "puntoexp2.4":"● Resultado: Una solución multiplataforma innovadora que demostró habilidades en diseño de arquitectura y colaboración en equipo.",
+
+  "college": "Universidad Tecnológica de Nogales Sonora.",
+  "carrer": "Ingeniería en Desarrollo y Gestión de Software",
+  "date": "Septiembre 2021 - Abril 2025",
+  "profesional": "Desarrollador FrontEnd"
+}
