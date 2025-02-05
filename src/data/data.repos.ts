@@ -150,9 +150,16 @@ const repos: Repo[] = [
   {
     "image": "./images/proyectos/PrimerApp.png",
     "name": "Mi-primera-APP-con-react",
-    "description": "",
+    "description": "Mi primera app con react",
     "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/Mi-primera-APP-con-react"
+  },
+  {
+    "image": "./images/proyectos/Meta.png",
+    "name": "Meta-Business-App",
+    "description": "Proyecto para OOMAPAS de Nogales Sonora",
+    "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/MetaBusiness"
   },
   {
     "name": "RPG-Game",
