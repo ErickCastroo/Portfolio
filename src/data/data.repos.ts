@@ -8,6 +8,13 @@ type Repo = {
 
 const repos: Repo[] = [
   {
+    "image": "./images/proyectos/Certrodemensajes.png",
+    "name": "Centro de mensajes",
+    "description": "Una interfaz gráfica profesional para una empresa llamada OOMAPAS como enviar mensajes",
+    "languages": ["TypeScript", "React", "Vite"],
+    "url": "https://github.com/ErickCastroo/Twilio_ui"
+  },
+  {
     "image": "./images/proyectos/Gastitos.png",
     "name": "Gastitos",
     "description": "Proyecto personal donde aprendí a usar Reducer, useMemo, Context API y mis propios hooks, hecho con React+typeScript+Vite",
