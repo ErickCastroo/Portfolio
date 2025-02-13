@@ -55,12 +55,12 @@ const Experiencia: React.FC = () => {
 
   const experience = [
     {
-      'url': 'https://github.com/ErickCastroo/saloncito_ui',
+      'url': 'https://www.oomapasnogales.gob.mx/',
       title: t('titleexp1'),
-      company: 'UTN',
+      company: 'Oomapas-Nogales',
       time: t('fechaexp1'),
       description: t('descexp1'),
-      tags: ['React', 'TypeScript', 'Tailwind', 'REST', 'Figma'],
+      tags: ['React', 'TypeScript', 'Tailwind', 'REST', 'Figma', 'Node', 'Express', 'MongoDB', 'microservices'],
     },
     {
       'url': 'https://github.com/zchelalo/notitas_ui',

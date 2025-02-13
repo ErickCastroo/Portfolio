@@ -8,9 +8,22 @@ type Repo = {
 
 const repos: Repo[] = [
   {
+    "image": "./images/proyectos/Pacientitos.png",
+    "name": "Pacientitos",
+    "description": "Proyecto aprendiendo a usar zustand",
+    "languages": ["TypeScript", "React", "Vite"],
+    "url": "https://github.com/ErickCastroo/Pacientitos"
+  },
+  {
     "image": "./images/proyectos/Certrodemensajes.png",
     "name": "Centro de mensajes",
     "description": "Una interfaz gráfica profesional para una empresa llamada OOMAPAS como enviar mensajes",
+    "languages": ["TypeScript", "React", "Vite"],
+    "url": "https://github.com/ErickCastroo/Twilio_ui"
+  },
+  {
+    "name": "Centro de mensajes backend",
+    "description": "RESTAPI para app de centro de mensajes para una empresa llamada OOMAPAS como enviar mensajes",
     "languages": ["TypeScript", "React", "Vite"],
     "url": "https://github.com/ErickCastroo/Twilio_ui"
   },
