@@ -29,8 +29,8 @@ const App: React.FC = () => {
               onChange={(e) => changeLanguage(e.target.value)}
               className='text-sm px-3 py-1 text-white dark:text-slate-200 rounded-lg border border-transparent hover:bg-indigo-500 hover:text-white dark:hover:bg-slate-800 dark:bg-transparent bg-transparent transition-all duration-300'
             >
-              <option value="es">ES</option>
-              <option value="en">EN</option>  
+              <option value='es'>ES</option>
+              <option value='en'>EN</option>  
             </select>
           </div>
 

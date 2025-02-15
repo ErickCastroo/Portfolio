@@ -12,14 +12,14 @@ const repos: Repo[] = [
     "name": "Climita",
     "description": "Proyecto aprendiendo a usar CssModules y tipar una API",
     "languages": ["TypeScript", "React", "Vite", "CSS"],
-    "url": "https://github.com/ErickCastroo/Pacientitos"
+    "url": "https://github.com/ErickCastroo/climita"
   },
   {
     "image": "./images/proyectos/Pacientitos.png",
     "name": "Pacientitos",
     "description": "Proyecto aprendiendo a usar zustand",
     "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/Pacientitos"
+    "url": "https://github.com/ErickCastroo/pacientitos"
   },
   {
     "image": "./images/proyectos/Certrodemensajes.png",

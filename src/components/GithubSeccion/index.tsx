@@ -26,7 +26,7 @@ const GitHubRepos: React.FC = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,
-    cssEase: "linear",
+    cssEase: 'linear',
     responsive: [
       {
         breakpoint: 1024,

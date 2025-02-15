@@ -13,8 +13,8 @@ type CardProps = {
 const Card: React.FC<CardProps> = ({ url, title, company, time, description, tags }) => (
   <div className='cursor-pointer p-6 rounded-lg hover:shadow-lg shadow-xl hover:shadow-white/50 dark:hover:shadow-cyan-500/50 transition-shadow'>
     <a
-    target="_blank"
-    rel="noopener noreferrer"
+    target='_blank'
+    rel='noopener noreferrer'
       href={url}
       className='w-full h-full block'>
       <h3 className='text-lg font-bold text-white dark:text-cyan-400'>{title}</h3>
