@@ -16,6 +16,8 @@
   "Projectofclass": "Proyecto de Clase",
   "descexp1": "Soy desarrollador de aplicaciones web, actualmente trabajo en el desarrollo de Oomapas-Nogales como desarrollador fullstack, utilizando las tecnologías mas actuales para el desarrollo de aplicaciones web.",
 
+  "descexp2": "Desarrollé una aplicación de notas con React, Node.js, Express y MongoDB. La aplicación permitía a los usuarios crear, editar y eliminar notas, así como autenticarse y almacenar notas en la base de datos, el usuario también puede compartir notas con otros usuarios creando grupos.",
+
   "puntoexp1.1":"● Implementé la interfaz de usuario en React y TypeScript, priorizando la accesibilidad y la experiencia del usuario.",
   "puntoexp1.2":"● Colaboré en el desarrollo del backend, utilizando Node.js, para garantizar una arquitectura escalable y eficiente.",
   "puntoexp1.3":"● Diseñé manuales de usuario y guías técnicas para desarrolladores, facilitando la comprensión de la plataforma.",

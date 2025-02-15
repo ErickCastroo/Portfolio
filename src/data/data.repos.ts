@@ -8,51 +8,58 @@ type Repo = {
 
 const repos: Repo[] = [
   {
+    "image": "./images/proyectos/Climita.png",
+    "name": "Climita",
+    "description": "Proyecto aprendiendo a usar CssModules y tipar una API",
+    "languages": ["TypeScript", "React", "Vite", "CSS"],
+    "url": "https://github.com/ErickCastroo/Pacientitos"
+  },
+  {
     "image": "./images/proyectos/Pacientitos.png",
     "name": "Pacientitos",
     "description": "Proyecto aprendiendo a usar zustand",
-    "languages": ["TypeScript", "React", "Vite"],
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/Pacientitos"
   },
   {
     "image": "./images/proyectos/Certrodemensajes.png",
     "name": "Centro de mensajes",
     "description": "Una interfaz gráfica profesional para una empresa llamada OOMAPAS como enviar mensajes",
-    "languages": ["TypeScript", "React", "Vite"],
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/Twilio_ui"
   },
   {
     "name": "Centro de mensajes backend",
     "description": "RESTAPI para app de centro de mensajes para una empresa llamada OOMAPAS como enviar mensajes",
-    "languages": ["TypeScript", "React", "Vite"],
+    "languages": ["TypeScript", "Node", "Express"],
     "url": "https://github.com/ErickCastroo/Twilio_ui"
   },
   {
     "image": "./images/proyectos/Gastitos.png",
     "name": "Gastitos",
     "description": "Proyecto personal donde aprendí a usar Reducer, useMemo, Context API y mis propios hooks, hecho con React+typeScript+Vite",
-    "languages": ["TypeScript", "React", "Vite"],
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/Gastitos"
   },
   {
     "image": "./images/proyectos/Notitas.png",
     "name": "Notitas",
     "description": "Interfaz gráfica de la aplicación de Notitas, hecha con React, ShadCN, TailwindCSS. Soporte español e ingles.",
-    "languages": ["TypeScript", "React", "Vite"],
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/zchelalo/notitas_ui"
   },
   {
     "image": "./images/proyectos/Saloncito.png",
     "name": "saloncito_ui",
     "description": "proyecto para Universidad Tecnologica de Nogales Sonora donde hacemos una plataforma de trabajo inspirada en classroom de google",
-    "languages": ["TypeScript", "React", "Vite"],
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/saloncito_ui"
   },
   {
     "image": "./images/proyectos/Calorias.png",
     "name": "ContadorDeCalorias",
     "description": "En este proyecto apriendi a usar mejor typescript junto con UseReducer",
-    "languages": ["TypeScript", "React", "Vite"],
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/ContadorDeCalorias"
   },
   {
@@ -234,7 +241,7 @@ const repos: Repo[] = [
     "description": "Proyecto donde aprendi a hacer rutas protegidas para evitar que usuarios no autorizados accedan a ciertas rutas de la aplicación.",
     "languages": ["JavaScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/react-router-rutas-protegidas"
-  }, 
+  },
   {
     "name": "NotitasNativo",
     "description": "",

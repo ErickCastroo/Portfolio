@@ -22,6 +22,7 @@ declare module 'i18next' {
         fechaexp2: string;
         collage: string;
         carrer: string;
+        descexp2: string;
         date: string;
         profesional: string;
         Projectofclass: string;
