@@ -8,6 +8,13 @@ type Repo = {
 
 const repos: Repo[] = [
   {
+    "image": "./images/proyectos/CotizadorCriptos.png",
+    "name": "Cotizador de Criptomonedas",
+    "description": "Proyecto personal, usando Zustand,Schemas, Zod",
+    "languages": ["TypeScript", "React", "Vite", "CSS"],
+    "url": "https://github.com/ErickCastroo/cotizadorcriptos"
+  },
+  {
     "image": "./images/proyectos/Climita.png",
     "name": "Climita",
     "description": "Proyecto aprendiendo a usar CssModules y tipar una API",
@@ -21,19 +28,20 @@ const repos: Repo[] = [
     "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/pacientitos"
   },
-  {
-    "image": "./images/proyectos/Certrodemensajes.png",
-    "name": "Centro de mensajes",
-    "description": "Una interfaz gráfica profesional para una empresa llamada OOMAPAS como enviar mensajes",
-    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/Twilio_ui"
-  },
-  {
-    "name": "Centro de mensajes backend",
-    "description": "RESTAPI para app de centro de mensajes para una empresa llamada OOMAPAS como enviar mensajes",
-    "languages": ["TypeScript", "Node", "Express"],
-    "url": "https://github.com/ErickCastroo/Twilio_ui"
-  },
+  // {
+  //   "image": "./images/proyectos/InformacionConfidencial.jpg",
+  //   "name": "Centro de mensajes",
+  //   "description": "Una interfaz gráfica profesional para una empresa llamada OOMAPAS como enviar mensajes",
+  //   "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
+  //   "url": ""
+  // },
+  // {
+  //   "image": "./images/proyectos/InformacionConfidencial.jpg",
+  //   "name": "Centro de mensajes backend",
+  //   "description": "RESTAPI para app de centro de mensajes para una empresa llamada OOMAPAS como enviar mensajes",
+  //   "languages": ["TypeScript", "Node", "Express"],
+  //   "url": "" 
+  // },
   {
     "image": "./images/proyectos/Gastitos.png",
     "name": "Gastitos",
