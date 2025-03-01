@@ -7,48 +7,7 @@ type Repo = {
 }
 
 const repos: Repo[] = [
-  {
-    "image": "./images/proyectos/CotizadorCriptos.png",
-    "name": "Cotizador de Criptomonedas",
-    "description": "Proyecto personal, usando Zustand,Schemas, Zod",
-    "languages": ["TypeScript", "React", "Vite", "CSS"],
-    "url": "https://github.com/ErickCastroo/cotizadorcriptos"
-  },
-  {
-    "image": "./images/proyectos/Climita.png",
-    "name": "Climita",
-    "description": "Proyecto aprendiendo a usar CssModules y tipar una API",
-    "languages": ["TypeScript", "React", "Vite", "CSS"],
-    "url": "https://github.com/ErickCastroo/climita"
-  },
-  {
-    "image": "./images/proyectos/Pacientitos.png",
-    "name": "Pacientitos",
-    "description": "Proyecto aprendiendo a usar zustand",
-    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/pacientitos"
-  },
-  // {
-  //   "image": "./images/proyectos/InformacionConfidencial.jpg",
-  //   "name": "Centro de mensajes",
-  //   "description": "Una interfaz gráfica profesional para una empresa llamada OOMAPAS como enviar mensajes",
-  //   "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
-  //   "url": ""
-  // },
-  // {
-  //   "image": "./images/proyectos/InformacionConfidencial.jpg",
-  //   "name": "Centro de mensajes backend",
-  //   "description": "RESTAPI para app de centro de mensajes para una empresa llamada OOMAPAS como enviar mensajes",
-  //   "languages": ["TypeScript", "Node", "Express"],
-  //   "url": "" 
-  // },
-  {
-    "image": "./images/proyectos/Gastitos.png",
-    "name": "Gastitos",
-    "description": "Proyecto personal donde aprendí a usar Reducer, useMemo, Context API y mis propios hooks, hecho con React+typeScript+Vite",
-    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
-    "url": "https://github.com/ErickCastroo/Gastitos"
-  },
+
   {
     "image": "./images/proyectos/Notitas.png",
     "name": "Notitas",
@@ -70,6 +29,55 @@ const repos: Repo[] = [
     "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
     "url": "https://github.com/ErickCastroo/ContadorDeCalorias"
   },
+  {
+    "image": "./images/proyectos/Cocktail.png",
+    "name": "Cocktail",
+    "description": "Proyecto personal, usando Zustand,Schemas, Zod, Slices, Etc.",
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/cotizadorcriptos"
+  },
+  {
+    "image": "./images/proyectos/Gastitos.png",
+    "name": "Gastitos",
+    "description": "Proyecto personal donde aprendí a usar Reducer, useMemo, Context API y mis propios hooks, hecho con React+typeScript+Vite",
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/Gastitos"
+  },
+  {
+    "image": "./images/proyectos/Pacientitos.png",
+    "name": "Pacientitos",
+    "description": "Proyecto aprendiendo a usar zustand",
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/pacientitos"
+  },
+  {
+    "image": "./images/proyectos/CotizadorCriptos.png",
+    "name": "Cotizador de Criptomonedas",
+    "description": "Proyecto personal, usando Zustand,Schemas, Zod",
+    "languages": ["TypeScript", "React", "Vite", "CSS"],
+    "url": "https://github.com/ErickCastroo/cotizadorcriptos"
+  },
+  {
+    "image": "./images/proyectos/Climita.png",
+    "name": "Climita",
+    "description": "Proyecto aprendiendo a usar CssModules y tipar una API",
+    "languages": ["TypeScript", "React", "Vite", "CSS"],
+    "url": "https://github.com/ErickCastroo/climita"
+  },
+  // {
+  //   "image": "./images/proyectos/InformacionConfidencial.jpg",
+  //   "name": "Centro de mensajes",
+  //   "description": "Una interfaz gráfica profesional para una empresa llamada OOMAPAS como enviar mensajes",
+  //   "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
+  //   "url": ""
+  // },
+  // {
+  //   "image": "./images/proyectos/InformacionConfidencial.jpg",
+  //   "name": "Centro de mensajes backend",
+  //   "description": "RESTAPI para app de centro de mensajes para una empresa llamada OOMAPAS como enviar mensajes",
+  //   "languages": ["TypeScript", "Node", "Express"],
+  //   "url": "" 
+  // },
   {
     "image": "./images/proyectos/APIRM.png",
     "name": "React-RickAndMorty-Api",
