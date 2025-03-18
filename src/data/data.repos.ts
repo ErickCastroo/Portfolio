@@ -51,6 +51,20 @@ const repos: Repo[] = [
     "url": "https://github.com/ErickCastroo/pacientitos"
   },
   {
+    "image": "./images/proyectos/KomitoStorage.png",
+    "name": "KomitoStorage_UI",
+    "description": "Una interfaz gráfica profesional para un inventario realizado con PERN",
+    "languages": ["TypeScript", "React", "Vite", "Tailwindcss"],
+    "url": "https://github.com/ErickCastroo/inventario_ui"
+  },
+  {
+    "image": "./images/proyectos/KomitoStorage.png",
+    "name": "KomitoStorage",
+    "description": "RestAPI utilizando PERN para un proyecto de almacenamiento de una tienda de mangas",  
+    "languages": ["TypeScript", "Node", "Express", "PostgreSQL"],
+    "url": "https://github.com/ErickCastroo/inventarioRestApi"
+  },
+  {
     "image": "./images/proyectos/CotizadorCriptos.png",
     "name": "Cotizador de Criptomonedas",
     "description": "Proyecto personal, usando Zustand,Schemas, Zod",
